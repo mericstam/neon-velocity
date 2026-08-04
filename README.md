@@ -2,6 +2,8 @@
 
 A three-lane endless runner built with [Three.js](https://threejs.org) and [Vite](https://vite.dev). Dodge obstacles, chain shard combos, grind rails, and take down the WRAITH-01 interceptor.
 
+![Neon Velocity gameplay — the runner grinding a rail through sector 07](docs/screenshot.png)
+
 Runs entirely in the browser — no backend, no build step for players, no account. Progress (best score, credits, settings) is kept in `localStorage`.
 
 ## Requirements
