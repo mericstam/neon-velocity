@@ -1,16 +1,16 @@
 # NEON VELOCITY — Horizon Protocol
 
+Built by me together with the **Hermes agent** and **GPT 5.6 Terra**, at a total cost of roughly **$20 via [OpenRouter](https://openrouter.ai)** — that covers the game itself: the renderer, the run cycle, the state machine, the boss fight, and the tests.
+
+**Claude** came in afterwards for the scaffolding around it: the run scripts (`run.sh`, `run.ps1`, `scripts/start.mjs`), project metadata (`.gitignore`, `.gitattributes`, license, `engines`), this README, and setting up the git repo and publishing it to GitHub. None of the game logic.
+
+---
+
 A three-lane endless runner built with [Three.js](https://threejs.org) and [Vite](https://vite.dev). Dodge obstacles, chain shard combos, grind rails, and take down the WRAITH-01 interceptor.
 
 ![Neon Velocity gameplay — the runner grinding a rail through sector 07](docs/screenshot.png)
 
 Runs entirely in the browser — no backend, no build step for players, no account. Progress (best score, credits, settings) is kept in `localStorage`.
-
-## Who built this
-
-Built by me together with the **Hermes agent** and **GPT 5.6 Terra**, at a total cost of roughly **$20 via [OpenRouter](https://openrouter.ai)** — that covers the game itself: the renderer, the run cycle, the state machine, the boss fight, and the tests.
-
-**Claude** came in afterwards for the scaffolding around it: the run scripts (`run.sh`, `run.ps1`, `scripts/start.mjs`), project metadata (`.gitignore`, `.gitattributes`, license, `engines`), this README, and setting up the git repo and publishing it to GitHub. None of the game logic.
 
 ## Requirements
 
