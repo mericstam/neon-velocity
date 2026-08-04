@@ -6,6 +6,12 @@ A three-lane endless runner built with [Three.js](https://threejs.org) and [Vite
 
 Runs entirely in the browser — no backend, no build step for players, no account. Progress (best score, credits, settings) is kept in `localStorage`.
 
+## Who built this
+
+Built by me together with the **Hermes agent** and **GPT 5.6 Terra**, at a total cost of roughly **$20 via [OpenRouter](https://openrouter.ai)** — that covers the game itself: the renderer, the run cycle, the state machine, the boss fight, and the tests.
+
+**Claude** came in afterwards for the scaffolding around it: the run scripts (`run.sh`, `run.ps1`, `scripts/start.mjs`), project metadata (`.gitignore`, `.gitattributes`, license, `engines`), this README, and setting up the git repo and publishing it to GitHub. None of the game logic.
+
 ## Requirements
 
 - **Node.js** `^20.19.0` or `>=22.12.0` — the floor Vite 7 sets. [Download](https://nodejs.org)
@@ -115,12 +121,6 @@ Stored under the keys `neon-velocity-settings`, `neon-velocity-best-score`, and 
 `./run.sh build` emits a fully static `dist/` — host it on any static server (GitHub Pages, Netlify, Cloudflare Pages, S3, nginx). There is no server-side component.
 
 The build warns that the main chunk is over 500 kB; that's Three.js, expected for a 3D game. If you want it quieter, split it with `build.rollupOptions.output.manualChunks` in a Vite config.
-
-## Credits
-
-Built by me together with the **Hermes agent** and **GPT 5.6 Terra**, at a total cost of roughly **$20 via [OpenRouter](https://openrouter.ai)** — that covers the game itself: the renderer, the run cycle, the state machine, the boss fight, and the tests.
-
-**Claude** came in afterwards for the scaffolding around it: the run scripts (`run.sh`, `run.ps1`, `scripts/start.mjs`), project metadata (`.gitignore`, `.gitattributes`, license, `engines`), this README, and setting up the git repo and publishing it to GitHub. None of the game logic.
 
 ## License
 
