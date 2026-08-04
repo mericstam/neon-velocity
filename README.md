@@ -1,6 +1,6 @@
 # NEON VELOCITY — Horizon Protocol
 
-Built by me together with the **Hermes agent** and **GPT 5.6 Terra**, at a total cost of roughly **$20 via [OpenRouter](https://openrouter.ai)** — that covers the game itself: the renderer, the run cycle, the state machine, the boss fight, and the tests.
+Built by me together with the **Hermes agent** and **GPT-5.6 Terra**, at a total cost of roughly **$20 via [OpenRouter](https://openrouter.ai)** — that covers the game itself: the renderer, the run cycle, the state machine, the boss fight, and the tests.
 
 **Claude** came in afterwards for the scaffolding around it: the run scripts (`run.sh`, `run.ps1`, `scripts/start.mjs`), project metadata (`.gitignore`, `.gitattributes`, license, `engines`), this README, and setting up the git repo and publishing it to GitHub. None of the game logic.
 
