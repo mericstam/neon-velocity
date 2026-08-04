@@ -114,6 +114,12 @@ Stored under the keys `neon-velocity-settings`, `neon-velocity-best-score`, and 
 
 The build warns that the main chunk is over 500 kB; that's Three.js, expected for a 3D game. If you want it quieter, split it with `build.rollupOptions.output.manualChunks` in a Vite config.
 
+## License
+
+[MIT](LICENSE) © 2026 Manuel Ericstam — use it, fork it, ship it, sell it; just keep the copyright notice.
+
+Three.js and Vite are MIT licensed too, so the built bundle carries no additional obligations.
+
 ## Notes for contributors
 
 - `.gitattributes` normalizes all text files to LF in the repo **and** in the working copy, on Windows too. Line endings stay identical across platforms and diffs never show phantom whole-file changes.
