@@ -114,6 +114,12 @@ Stored under the keys `neon-velocity-settings`, `neon-velocity-best-score`, and 
 
 The build warns that the main chunk is over 500 kB; that's Three.js, expected for a 3D game. If you want it quieter, split it with `build.rollupOptions.output.manualChunks` in a Vite config.
 
+## Credits
+
+Built by me together with the **Hermes agent** and **GPT 5.6 Terra**, at a total cost of roughly **$20 via [OpenRouter](https://openrouter.ai)** — that covers the game itself: the renderer, the run cycle, the state machine, the boss fight, and the tests.
+
+**Claude** came in afterwards for the scaffolding around it: the run scripts (`run.sh`, `run.ps1`, `scripts/start.mjs`), project metadata (`.gitignore`, `.gitattributes`, license, `engines`), this README, and setting up the git repo and publishing it to GitHub. None of the game logic.
+
 ## License
 
 [MIT](LICENSE) © 2026 Manuel Ericstam — use it, fork it, ship it, sell it; just keep the copyright notice.
